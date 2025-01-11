@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/boxModel.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/boxModel.css" />
+  </head>
+  <body>
     <!-- <h1>Heading</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis, perspiciatis cum dignissimos, soluta sunt odio mollitia quos recusandae inventore et. At iure provident numquam, optio eum atque quos minus!</p>
     <button>Click me!</button> -->
-    
+
     <!-- <h2>Practice set 3:-</h2> -->
 
     <!-- Qustion 1 -->
     <!-- <div></div> // uncomment div and css to see result  -->
 
     <!-- Qustion 2  -->
-
-    <div id="navBar">
+    <header>
+      <div id="navBar">
         <a href="/" class="logo">Amazon.in</a>
-        <a href="/">Account</a>
-        <a href="/">My cart</a>
-        <a href="/">Contact us</a>
+        <a href="/"  class="navLinks">Account</a>
+        <a href="/" class="navLinks">My cart</a>
+        <a href="/" class="navLinks">Contact us</a>
         <div>
-            <input type="text " id="inputSearch" placeholder="Search Amazon.in">
-            <button class="btn">Search</button>
+          <input type="text " id="inputSearch" placeholder="Search Amazon.in" />
+          <button class="btn">Search</button>
         </div>
-        
-    </div>
-</body>
+      </div>
+    </header>
+    <content id="main">
+      <div id="contentDiv" class="d1">
+        <p class="contentHeading">
+          Lorem ipsum dolor sit amet consectetur <span>adipisicing elit.</span>
+        </p>
+        <p class="contentPara">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+          rem perferendis minus, similique aut excepturi ipsam exercitationem
+          repudiandae expedita quae.
+        </p>
+      </div>
+
+      <div id="contentDiv" class="d2">
+        <img class="heroSection" src="/shoping.png" alt="Shopping image" />
+      </div>
+
+      <!-- <div id="contentDiv" class="d3">c</div> -->
+    </content>
+    <footer>
+      <div id="footer">
+        <p>
+          Copyright © 2025 by swaraj Deshmukh...
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
